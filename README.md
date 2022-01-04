@@ -11,7 +11,7 @@
   3 elemanlı sıralanmış iki dizi oluşmuş olup bu iki diziyi birleştirme işleminde önce en küçük elemanlar karşılaştırılır. 8 en küçüğü olduğu için en başa yazılır. 11 ile 12 karşılaştırlır. 11 daha küçüktür ve ikinci eleman olarak yazılır. Bu karşılaştırma işleminde dizilerinin en küçükleri karşılaştırıldıkları için tüm dizi baştan aşağı karşılaştırılmamış olur ve daha hızlı sonuçlanır. -> **8,11,12,16,21,22** şeklinde dizi elde edilmiş olur. 
   
   
-##Big-O gösterimi
+## Big-O gösterimi
 
   Dizi sürekli ikiye bölünerek tek elemanlar elde edilir. Bu tek elemanlar da karşılaştıralarak yeniden diziye dönüştürülür. Bu noktada **log(n)** defa işlem yapılır. Bunun haricinde bölünen dizinin elemanları da karşılaştırıldığı ve sonrasında birleştirildiği için **n** defa işlem yapılmış olur.
   Bunların sonucunda *n(log(n))* defa işlem yapılmış olur.
